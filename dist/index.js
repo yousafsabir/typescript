@@ -19,3 +19,10 @@ let arr = [1, true, "hello"];
 // Tuples
 // types for exact spots
 let person = [1, "Yousaf", true];
+// Tuples Array
+let persons = [
+    [1, "Yousaf"],
+    [2, "Usman"],
+    [3, "Umair"],
+    [4, "Numan"],
+];

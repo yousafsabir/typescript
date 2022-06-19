@@ -21,3 +21,10 @@ let arr: any[] = [1, true, "hello"];
 // Tuples
 // types for exact spots
 let person: [number, string, boolean] = [1, "Yousaf", true];
+// Tuples Array
+let persons: [number, string][] = [
+    [1, "Yousaf"],
+    [2, "Usman"],
+    [3, "Umair"],
+    [4, "Numan"],
+];
