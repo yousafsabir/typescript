@@ -66,3 +66,5 @@ const user2 = {
     phone: 923041317170,
 };
 const p1 = 3;
+const add = (x, y) => x + y;
+const sub = (x, y) => x - y;

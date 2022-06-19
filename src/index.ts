@@ -97,3 +97,10 @@ const user2: User2 = {
 // while types can be used, for example
 type Point = number | string;
 const p1: Point = 3;
+
+// Interfaces with functions
+interface MathFunc {
+    (x: number, y: number): number;
+}
+const add: MathFunc = (x: number, y: number): number => x + y;
+const sub: MathFunc = (x: number, y: number): number => x - y;
