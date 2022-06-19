@@ -56,3 +56,10 @@ const user1: User1 = {
     id: 1,
     name: "Naeem",
 };
+
+// Type Assertion
+// Copying a variable but also specifying its type
+// Two ways to do this
+let cid: any = 1;
+let customer1 = <number>cid;
+let customer2 = cid as number;
