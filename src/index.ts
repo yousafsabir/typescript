@@ -68,3 +68,9 @@ let customer2 = cid as number;
 function AddNum(x: number, y: number): number /*<- type of its return value */ {
     return x + y;
 }
+
+function log(
+    msg: number | string
+): void /* If its not gonna return anything, then void */ {
+    console.log(msg);
+}
