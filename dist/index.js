@@ -26,3 +26,7 @@ let persons = [
     [3, "Umair"],
     [4, "Numan"],
 ];
+// Union
+// A variable holding more than one type
+let id = "1";
+id = 2;

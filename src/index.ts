@@ -28,3 +28,8 @@ let persons: [number, string][] = [
     [3, "Umair"],
     [4, "Numan"],
 ];
+
+// Union
+// A variable holding more than one type
+let id: string | number = "1";
+id = 2;
