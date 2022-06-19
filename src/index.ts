@@ -74,3 +74,14 @@ function log(
 ): void /* If its not gonna return anything, then void */ {
     console.log(msg);
 }
+
+// Interfaces
+// Interface is preferred while working with objects
+interface User2 {
+    id: number;
+    name: string;
+}
+const user2: User2 = {
+    id: 1,
+    name: "Naeem",
+};
