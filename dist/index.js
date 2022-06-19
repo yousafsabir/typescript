@@ -38,3 +38,12 @@ var Direction1;
     Direction1[Direction1["Left"] = 2] = "Left";
     Direction1[Direction1["Right"] = 3] = "Right";
 })(Direction1 || (Direction1 = {}));
+// Objects
+const user = {
+    id: 1,
+    name: "Yousaf",
+};
+const user1 = {
+    id: 1,
+    name: "Naeem",
+};

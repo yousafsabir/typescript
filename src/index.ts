@@ -41,3 +41,18 @@ enum Direction1 {
     Left,
     Right,
 }
+
+// Objects
+const user: { id: number; name: string } = {
+    id: 1,
+    name: "Yousaf",
+};
+// or we can define types separately
+type User1 = {
+    id: number;
+    name: string;
+};
+const user1: User1 = {
+    id: 1,
+    name: "Naeem",
+};
