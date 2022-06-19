@@ -68,3 +68,13 @@ const user2 = {
 const p1 = 3;
 const add = (x, y) => x + y;
 const sub = (x, y) => x - y;
+class Person {
+    constructor(id, name) {
+        this.id = id;
+        this.name = name;
+    }
+    register() {
+        return `${this.name} is Registered`;
+    }
+}
+const person1 = new Person(1, "Yousaf");
