@@ -53,3 +53,7 @@ const user1 = {
 let cid = 1;
 let customer1 = cid;
 let customer2 = cid;
+// Functions
+function AddNum(x, y) {
+    return x + y;
+}

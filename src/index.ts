@@ -63,3 +63,8 @@ const user1: User1 = {
 let cid: any = 1;
 let customer1 = <number>cid;
 let customer2 = cid as number;
+
+// Functions
+function AddNum(x: number, y: number): number /*<- type of its return value */ {
+    return x + y;
+}
