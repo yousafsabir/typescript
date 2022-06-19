@@ -78,3 +78,10 @@ class Person {
     }
 }
 const person1 = new Person(1, "Yousaf");
+// Generics
+// used to build reusable component
+function getArr(items) {
+    return new Array().concat(items);
+}
+let numArr = getArr([1, 2, 3]);
+let strArr = getArr(["hello", "how", "are", "you"]);

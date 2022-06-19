@@ -126,3 +126,12 @@ class Person implements PersonInterface {
 }
 
 const person1 = new Person(1, "Yousaf");
+
+// Generics
+// used to build reusable component
+function getArr<Type>(items: Type[]): Type[] {
+    return new Array().concat(items);
+}
+
+let numArr = getArr<number>([1, 2, 3]);
+let strArr = getArr<string>(["hello", "how", "are", "you"]);
