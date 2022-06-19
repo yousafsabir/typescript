@@ -80,10 +80,16 @@ function log(
 interface User2 {
     id: number;
     name: string;
+    // We can't write less or more keys in the object than specified here
+    // But if we wanna make a key optional, then put ? after it. Like this
+    age?: number;
+    // We can also specify read only keys, so that user can't change them later
+    readonly phone: number;
 }
 const user2: User2 = {
     id: 1,
     name: "Naeem",
+    phone: 923041317170,
 };
 
 // Difference between interfaces and types
