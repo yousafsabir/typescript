@@ -33,3 +33,11 @@ let persons: [number, string][] = [
 // A variable holding more than one type
 let id: string | number = "1";
 id = 2;
+
+// Enums
+enum Direction1 {
+    Up,
+    Down,
+    Left,
+    Right,
+}
