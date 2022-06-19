@@ -85,3 +85,9 @@ const user2: User2 = {
     id: 1,
     name: "Naeem",
 };
+
+// Difference between interfaces and types
+// interfaces can't be used with primitives & unions
+// while types can be used, for example
+type Point = number | string;
+const p1: Point = 3;

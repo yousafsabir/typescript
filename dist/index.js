@@ -64,3 +64,4 @@ const user2 = {
     id: 1,
     name: "Naeem",
 };
+const p1 = 3;
