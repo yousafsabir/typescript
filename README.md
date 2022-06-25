@@ -6,6 +6,8 @@
 
 > -   Any Type
 
+> -   Unknown Type
+
 > -   Array only supporting one type
 
 > -   Tuples

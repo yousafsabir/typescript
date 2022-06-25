@@ -12,6 +12,24 @@ let doingJob: boolean = false;
 let x: any = "It could be assigned or re-assigned with any type of data";
 x = true;
 
+// Unknown Type (typesafe version of any)
+// Works like any, but not assignable to other types of variables other than any
+let y: unknown;
+y = "abc";
+y = true;
+
+// let a: string = y; // gives error
+let b: any = y; // all good
+
+const a = (ab: string) => {
+    console.log(ab);
+};
+// a(y); // gives error, bcz unknown isn't assignalble to string
+const c = (ab: any) => {
+    console.log(ab);
+};
+c(y); // all good
+
 // Dealing with array
 // An array only supporting numbers
 let numbers: number[] = [1, 2, 3, 1];
