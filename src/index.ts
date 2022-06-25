@@ -74,6 +74,18 @@ const user1: User1 = {
     id: 1,
     name: "Naeem",
 };
+// but its better to use interfaces with objects
+
+// Extending type
+
+type X = {
+    a: string;
+};
+
+type Y = X & {
+    b: number;
+};
+// Now Y is gonna include a:string too
 
 // Type Assertion
 // Copying a variable but also specifying its type
@@ -93,8 +105,8 @@ function log(
     console.log(msg);
 }
 
-function log2(msg: number | string ): never /* won't even return undefined */ {
-    throw(Error)
+function log2(msg: number | string): never /* won't even return undefined */ {
+    throw Error;
 }
 // never is used when you have infinite loop or you wanna throw an error
 

@@ -62,6 +62,7 @@ const user1 = {
     id: 1,
     name: "Naeem",
 };
+// Now Y is gonna include a:string too
 // Type Assertion
 // Copying a variable but also specifying its type
 // Two ways to do this
@@ -76,7 +77,7 @@ function log(msg) {
     console.log(msg);
 }
 function log2(msg) {
-    throw (Error);
+    throw Error;
 }
 const user2 = {
     id: 1,
