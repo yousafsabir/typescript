@@ -75,6 +75,9 @@ function AddNum(x, y) {
 function log(msg) {
     console.log(msg);
 }
+function log2(msg) {
+    throw (Error);
+}
 const user2 = {
     id: 1,
     name: "Naeem",

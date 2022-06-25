@@ -89,9 +89,14 @@ function AddNum(x: number, y: number): number /*<- type of its return value */ {
 
 function log(
     msg: number | string
-): void /* If its not gonna return anything, then void */ {
+): void /* If its not gonna return anything, then void (returns undefined) */ {
     console.log(msg);
 }
+
+function log2(msg: number | string ): never /* won't even return undefined */ {
+    throw(Error)
+}
+// never is used when you have infinite loop or you wanna throw an error
 
 // Interfaces
 // Interface is preferred while working with objects
