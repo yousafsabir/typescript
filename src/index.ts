@@ -86,6 +86,7 @@ type Y = X & {
     b: number;
 };
 // Now Y is gonna include a:string too
+// Similarly we can extend type with interface in the same way
 
 // Type Assertion
 // Copying a variable but also specifying its type
@@ -126,6 +127,12 @@ const user2: User2 = {
     name: "Naeem",
     phone: 923041317170,
 };
+
+// Extending interfaces
+interface User3 extends User2 {
+    address: string;
+}
+// Similarly we can extend interface with type in the same way
 
 // Difference between interfaces and types
 // interfaces can't be used with primitives & unions

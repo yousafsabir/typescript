@@ -63,6 +63,7 @@ const user1 = {
     name: "Naeem",
 };
 // Now Y is gonna include a:string too
+// Similarly we can extend type with interface in the same way
 // Type Assertion
 // Copying a variable but also specifying its type
 // Two ways to do this
